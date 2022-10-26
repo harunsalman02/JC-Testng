@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/test/java/com/juaracoding/testng">
+        <classes>
+            <class name="com.juaracoding.testng.TestCalculator">
+                <methods>
+                    <include name="testAssertTrue"/>
+                </methods>
+            </class>
+            <class name="com.juaracoding.testng.TestCalculatorTwo">
+                <methods>
+                    <include name="testAdd"/>
+                    <include name="testSubstract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/main/java/com/juaracoding/one/MessageUtil.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/main/java/com/juaracoding/sample/CalculationSalary.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/main/java/com/juaracoding/sample/Employee.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/main/java/com/juaracoding/testng/Calculator.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/test/java/com/juaracoding/testng/TestCalculatorTwo.java">
+        <classes>
+            <class name="com.juaracoding.testng.TestCalculatorTwo">
+                <methods>
+                    <include name="testAdd"/>
+                    <include name="testSubstract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/test/java/com/juaracoding/testng/TestCalculator.java">
+        <classes>
+            <class name="com.juaracoding.testng.TestCalculator">
+                <methods>
+                    <include name="testAssertTrue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/test/java/com/juaracoding/sample/TestCalculationSalary.java">
+        <classes>
+            <class name="com.juaracoding.sample.TestCalculationSalary">
+                <methods>
+                    <include name="testCalculateTaxone"/>
+                    <include name="testCalculateTaxTwo"/>
+                    <include name="testGetEmployeeName"/>
+                    <include name="testGetEmployeeSalary"/>
+                    <include name="testGetEmployeeTax"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/test/java/com/juaracoding/featuretwo/ProcedureExecution.java">
+        <classes>
+            <class name="com.juaracoding.featuretwo.ProcedureExecution">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/JC-testng/src/test/java/com/juaracoding/testng/GroupTestExample.java">
+        <classes/>
+    </test>
+</suite>
